@@ -91,7 +91,7 @@ header {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 36px;
-  padding: 0 250px;
+  padding: 0 200px;
 }
 
 /* preview section */
@@ -182,6 +182,9 @@ header {
   border-radius: 14px;
   background: #fff;
   padding: 70px 0;
+}
+.template-title {
+  font-size: 50px;
 }
 .template-description {
   color: rgba(0, 0, 0, 0.5);
