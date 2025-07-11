@@ -19,6 +19,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #f5f8ff;
+}
 /* css shared style */
 .container {
   max-width: 1140px;
@@ -46,6 +49,10 @@
   color: #4e47ff;
   outline: 3px solid #4e47ff;
   transition: all 0.2s ease-in-out;
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
 }
 .section-space-top {
   padding-top: 100px;
@@ -118,10 +125,6 @@ header {
   justify-content: space-around;
   margin-top: 40px;
 }
-.user-title {
-  font-size: 36px;
-  font-weight: 700;
-}
 .user-item h3 {
   font-size: 64px;
   font-weight: 700;
@@ -130,4 +133,47 @@ header {
   color: rgba(0, 0, 0, 0.5);
   font-size: 18px;
   font-weight: 400;
+}
+/* feedback section */
+.feedback-items {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.feedback-item {
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.feedback-title {
+  color: #1e1e1e;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.feedback-description {
+  font-size: 16px;
+  color: #1e1e1e;
+  font-weight: 400;
+  margin: 24px 0;
+}
+.feedback-profile {
+  display: flex;
+  align-items: center;
+}
+.feedback-img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.feedback-profile-content h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 5px;
+}
+.feedback-profile-content p {
+  font: size 16px;
+  font-weight: 400;
+  color: #b3b3b3;
 }
