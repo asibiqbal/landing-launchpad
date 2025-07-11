@@ -34,7 +34,7 @@
   color: #fff;
   border: none;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 10px;
   background: #4e47ff;
   padding: 12px 36px;
@@ -46,6 +46,12 @@
   color: #4e47ff;
   outline: 3px solid #4e47ff;
   transition: all 0.2s ease-in-out;
+}
+.section-space-top {
+  padding-top: 100px;
+}
+.section-space-bottom {
+  padding-bottom: 100px;
 }
 .text-center {
   text-align: center;
@@ -64,7 +70,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 36px 0;
+  padding: 50px 0;
 }
 .logo h1 {
   font-size: 34px;
@@ -72,11 +78,32 @@ header {
 }
 
 .banner-container {
-  padding: 100px 0 120px 0;
+  padding: 70px 0 120px 0;
 }
 .banner-title {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 36px;
   padding: 0 250px;
+}
+
+/* preview section */
+.preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.preview-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+.preview-description {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  margin: 20px 0;
+}
+.preview-img {
+  border-radius: 48px;
 }
