@@ -47,8 +47,17 @@
   outline: 3px solid #4e47ff;
   transition: all 0.2s ease-in-out;
 }
+.text-center {
+  text-align: center;
+}
 
 /* header */
+header {
+  background-image: url("/Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 /* nav section */
 .nav-container {
@@ -60,4 +69,14 @@
 .logo h1 {
   font-size: 34px;
   font-weight: 900;
+}
+
+.banner-container {
+  padding: 100px 0 120px 0;
+}
+.banner-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 36px;
+  padding: 0 250px;
 }
