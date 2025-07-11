@@ -1,0 +1,63 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* inter font */
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* raleway */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* css shared style */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: #4e47ff;
+}
+.secondary-color {
+  color: #252432;
+}
+.section-button {
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #4e47ff;
+  padding: 12px 36px;
+  cursor: pointer;
+}
+.section-button:hover {
+  /* font-size: 18px; */
+  background: #fff;
+  color: #4e47ff;
+  outline: 3px solid #4e47ff;
+  transition: all 0.2s ease-in-out;
+}
+
+/* header */
+
+/* nav section */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 0;
+}
+.logo h1 {
+  font-size: 34px;
+  font-weight: 900;
+}
